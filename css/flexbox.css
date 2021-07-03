@@ -1,0 +1,67 @@
+/*.padre-flex {
+    background: dodgerblue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   /*flex-flow: row wrap;
+    justify-content: center;
+    height: auto;
+    align-content: center;
+    align-items: center;
+}
+.padre-flex > div {
+    background: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 100px;
+    }
+.hijo1 {
+    height: 100px;
+    order: 3;
+}
+.hijo2 {
+    height: 300px;
+    order: 5;
+}
+.hijo3 {
+order: 1;
+}
+.hijo4 {
+    height: 200px;
+    order: 4;
+}
+.hijo5 {
+order: 2;
+
+}*/
+
+body {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    padding: 1em;
+}
+ 
+#main{
+    display: flex;
+    flex: 1;}
+
+article, nav, aside{
+        background-color: pink;
+        height: 500px;
+                    }
+
+header, footer{
+        background-color: grey;
+        margin:1px;
+                    }
+
+article, nav, aside, header, footer{
+        flex:1;
+        padding: 1rem;
+        margin:1px;
+                                }
+     
+ 
